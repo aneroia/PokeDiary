@@ -83,7 +83,7 @@ namespace PokeDiary
 
             if(count == 0)
             {
-                MessageBox.Show("Пользователь создан!");
+                MessageBox.Show("Account created!");
                 User newUser = new User(loginTextbox.Text, nicknameTextbox.Text, passwordTextbox.Text);
                 saveFile(newUser);
                 Form3 frm3 = new Form3(nicknameTextbox.Text);
